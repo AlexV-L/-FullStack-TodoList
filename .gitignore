@@ -1,3 +1,4 @@
+.vercel_build_output
 .DS_Store
 node_modules
 /build
@@ -5,4 +6,3 @@ node_modules
 /package
 .env
 .env.*
-!.env.example

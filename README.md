@@ -1,38 +1,24 @@
-# create-svelte
+# PROJECT - Full Stack Web Development Using the Cloud
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Using Gitpod, none of the code or dependencies were installed locally, all was done using the cloud.
 
-## Creating a project
+## The Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+**Web application**
 
-```bash
-# create a new project in the current directory
-npm init svelte
+[Svelte](https://svelte.dev/) is a compiler to develop web applications. The application is styled with plain CSS.
 
-# create a new project in my-app
-npm init svelte my-app
-```
+**API**
 
-## Developing
+[SvelteKit](https://kit.svelte.dev/)  , the library & application framework powered by Svelte. It provides routing, server-side rendering and also enables us to develop a web application that works if Javascript is disabled.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+[Prisma](https://www.prisma.io/) , the object-relational mapping (ORM) library that let's us interact with the database. Based on defined models, Prisma generates the database schema and keeps the databsae in sync with our models.
 
-```bash
-npm run dev
+**Database**
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+[Postgres](https://www.postgresql.org/)  is the database choice for this project
 
-## Building
+**Deployment**
 
-To create a production version of your app:
+The web application and API are hosted on [Vercel](https://vercel.com/) whereas the database lives on [Railway](https://railway.app/).
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
